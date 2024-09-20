@@ -1,0 +1,95 @@
+head{
+  display: flex;
+  justify-content: center;
+}
+
+.nav{
+font-size: 20px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.btn-TH{
+  width:128px;
+  white-space: nowrap;
+  padding: 12px 40px 12px 40px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  text-decoration:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3692FF;
+}
+
+.btn-JY{
+  width:128px;
+  white-space: nowrap;
+  padding: 12px 40px 12px 40px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  text-decoration:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3692FF;
+
+}
+
+.btn-SH{
+  width:128px;
+  white-space: nowrap;
+  padding: 12px 40px 12px 40px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  text-decoration:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3692FF;
+
+}
+
+.btn-JK{
+  width:128px;
+  white-space: nowrap;
+  padding: 12px 40px 12px 40px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  text-decoration:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3692FF;
+
+}
+
+.btn-JH{
+  width:128px;
+  white-space: nowrap;
+  padding: 12px 40px 12px 40px;
+  gap: 10px;
+  border-radius: 8px;
+  text-decoration:none;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3692FF;
+}
