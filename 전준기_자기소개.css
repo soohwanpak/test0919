@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    
+}
+
+.name{
+    text-align: center;
+    font-size: 40px;
+    border-radius: 30px;
+    background-color:dimgray;
+    padding: 20px;
+}
+
+.introduce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#introList{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 20px;
+}
+
+#mbtiInput{
+    color: #1F2937;
+    width: 100px;
+    height: 20px;
+    font-size: 16px;
+}
