@@ -12,8 +12,9 @@
 }
 
 body{
-    height: 1000px;
+    height: 1500px;
 }
+
 .c1 {
     width: calc(100%-600px);
     max-width: 1000px;
@@ -57,12 +58,14 @@ button {
 }
 
 .box3 {
-    width: 50px;
+    width: 70px;
     height: 50px;
     font-size: 0.8rem;
     border-radius: 10px;
-
+    color :white;
+    background-color: blue;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 10px auto;
     border : 1px solid black;
@@ -70,7 +73,7 @@ button {
 }
 
 .done1 {
-    background-color: yellow;
+    background-color: red;
 }
 
 .box4 { 
@@ -89,6 +92,19 @@ button {
 }
 
 .box11 {
-    display: flex;
+    width : 500px;
+    height: 100px;
+    display : flex;
     justify-content: center;
+    margin : 0 auto;
+}
+
+.box12 {
+    width : 1000px;
+    display : flex;
+    justify-content: center;
+    margin : 20px auto;
+    flex-direction: column;
+    text-align: center;
+
 }
