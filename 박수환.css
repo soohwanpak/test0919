@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Jua", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+body{
+    height: 1000px;
+}
+.c1 {
+    width: calc(100%-600px);
+    max-width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 0.7px solid black;
+}
+
+.box1 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 2rem;
+    text-align: left;
+    border: 0.5px solid #D8D8D8
+}
+
+.done {
+    background-color: #D8D8D8
+}
+
+button {
+    width: 150px;
+    margin-right: 50px;
+}
+
+.box2 {
+    width: 100%;
+    max-width: 1000px;
+    margin: 100px auto 0 auto;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    border: 0.3px solid #D8D8D8;
+    background-color: #D8D8D8;
+}
+
+.box3 {
+    width: 50px;
+    height: 50px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    border : 1px solid black;
+    
+}
+
+.done1 {
+    background-color: yellow;
+}
+
+.box4 { 
+    width: 400px;
+    margin-top : 10px;
+}
+
+.done2 { 
+    color : red;
+}
+
+.done3 {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+}
+
+.box11 {
+    display: flex;
+    justify-content: center;
+}
