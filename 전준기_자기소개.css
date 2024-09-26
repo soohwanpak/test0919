@@ -12,10 +12,10 @@ body{
 
 .name{
     text-align: center;
-    font-size: 40px;
+    /*font-size: 40px;
     border-radius: 30px;
     background-color:dimgray;
-    padding: 20px;
+    padding: 20px; */
 }
 
 .introduce{
