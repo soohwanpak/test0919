@@ -3,5 +3,12 @@ body{
   height: 1200px;
   display: flex;
   justify-content: center;
-  align-items:flex-start;
+  align-items: center;
+  
+  
+  
+}
+.PR{
+  
+  background-color: beige;
 }
